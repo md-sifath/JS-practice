@@ -24,4 +24,67 @@ console.log(tips);
 
 /*********************END************************** */
 
+//     COdding challenge     //
+/************************ */
+
+var jhon= {
+    Fullname: 'Jhon Vond',
+    mass: 60,
+    height:1.2,
+    calBMI: function(){
+        return this.mass*(this.height*this.height);
+    }
+};
+var mark={
+    Fullname: 'Mark hard',
+    mass: 58,
+    height: 1.5,
+    calBMI: function(){
+        return this.mass*(this.height*this.height);
+    }
+};
+ jhon.BMI=jhon.calBMI();
+ mark.BMI=mark.calBMI();
+
+ if(jhon.BMI > mark.BMI){
+     console.log(jhon);
+ }
+else if(mark.BMI> jhon.BMI){
+    console.log(mark);
+}
+else {
+    console.log('BMI is same');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
